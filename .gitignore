@@ -1,0 +1,24 @@
+
+
+# Среда и кэш uv/python
+
+build/
+dist/
+wheels/
+*.egg-info
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Конфиденциальные данные и переменные среды
+.env
+*.env
+credentials.json
+token.txt
+
+# Локальные данные и веса моделей
+*.log
+data/
+checkpoints/
+models/
